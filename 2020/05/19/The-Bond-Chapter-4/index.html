@@ -56,7 +56,9 @@
                 
                     <a class="menu-item" href="/archives">Works</a>
                 
-                    <a class="menu-item" href="/series">Series</a>
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">tag</a>
                 
                     <a class="menu-item" href="/profile">Profile</a>
                 
@@ -79,7 +81,9 @@
                 
                     <a class="menu-item" href="/archives">Works</a>
                 
-                    <a class="menu-item" href="/series">Series</a>
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">tag</a>
                 
                     <a class="menu-item" href="/profile">Profile</a>
                 
@@ -121,6 +125,13 @@
                         Date: <a href="#">五月 19, 2020&nbsp;&nbsp;2:41:57</a>
                         </span>
                     
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/The-Bond/">The Bond</a>
+                            
+                        </span>
                     
                 </div>
             
@@ -250,11 +261,6 @@
                     </p>
                 
                 
-                     <p class="copyright-item">
-                         <span>Slogan:</span>
-                         <span>Do you believe in <strong>DESTINY</strong>?</span>
-                     </p>
-                
 
             </section>
         
@@ -263,6 +269,10 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
+                    
+                        <a href="/tags/%E5%91%A8%E8%BF%A6/"># 周迦</a>
+                    
+                        
                 </span>
             </div>
             <div>
@@ -283,6 +293,30 @@
 
     </article>
 </div>
+
+
+    <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.5.2/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.5.2/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+      var gitalk = new Gitalk({
+        clientID: 'bc165b205d433909f2c4',
+        clientSecret: '34dab244909b70a680aab8c8e4d80c335b25b21a',
+        repo: 'blog',
+        owner: 'Eismove',
+        admin: '扑热息痛',
+        id: location.pathname,
+        labels: 'Gitalk'.split(',').filter(l => l),
+        perPage: 10,
+        pagerDirection: 'last',
+        createIssueManually: true,
+        distractionFreeMode: false
+      })
+      gitalk.render('gitalk-container')
+</script>
+
+
 
         </div>
         <footer id="footer" class="footer">
