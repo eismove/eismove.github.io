@@ -174,12 +174,18 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 10 篇文章</p>
+  <p class="h4">共计 11 篇文章</p>
   <hr>
   
     
       
       <p class="h5">2020</p>
+    
+    <a href="/2020/10/23/%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">风花雪月</span>
+      <span style="float: right;">10-23</span>
+    </a>
+  
     
     <a href="/2020/10/10/Chaos-Inflatio/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">Chaos Inflatio</span>
@@ -234,13 +240,19 @@
       <span style="float: right;">05-19</span>
     </a>
   
-    
-    <a href="/2020/05/13/Ache/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Ache</span>
-      <span style="float: right;">05-13</span>
-    </a>
-  
 </div>
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/categories/%E5%91%A8%E8%BF%A6%E7%9F%AD%E7%AF%87%E9%9B%86/page/2/">2</a><a class="extend next" rel="next" href="/categories/%E5%91%A8%E8%BF%A6%E7%9F%AD%E7%AF%87%E9%9B%86/page/2/"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
 
 
 
