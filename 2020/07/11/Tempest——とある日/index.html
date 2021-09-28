@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="description" content="">
+  <meta name="author" content="扑热息痛">
+  <meta name="keywords" content="">
+  <title>Tempest——とある日 - 扑热息痛</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>扑热息痛</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/q.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-07-11 00:23">
+      2020年7月11日 凌晨
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.8k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      18
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>都市的夏天往往比乡下更加炎热，迦尔纳刚背着包从清凉的车厢回到热气的包围中，皮肤上便立刻浮起了一层薄薄的汗。</p>
+<p>自那个夏天过去已经四年，他和阿周那各自在同样位于首都但却方向不同的两个大学上课，假期漫长，然而他因为要去实验室的缘故而常常和他见不到面，即便偶尔有空闲，对方也因为呆在机房里脱不开身。</p>
+<p>“阿周那？嗯，我到了。”迦尔纳接通了阿周那的电话说道。</p>
+<p>“地址我发给你了，找到地点以后上八楼，我在这边等你。”</p>
+<p>“要给你带点什么吗？”</p>
+<p>电话那边沉默了两秒。</p>
+<p>“营养剂和随便什么吃的吧。”阿周那敲打着键盘，“谢谢。”</p>
+<p>“没事。”迦尔纳在便利店前停下了脚步，买好东西，提着有些沉重的塑料袋在偌大的校园中走动起来。</p>
+<p>阿周那所在的学校和他的学校的风格有着巨大的不同，建筑大多是现代设计，用玻璃围成的墙壁在太阳的照射下闪闪发光。迦尔纳拿着手机绕过巨大的喷泉，道路两旁栽种了巨大的梧桐，浓绿的落叶铺满了柏油马路，金色光点如同流星般从头顶飞过，偶尔吹过一阵风，众多树木也跟着摇曳，伴随着喧闹的蝉鸣，发出阵阵的响声。</p>
+<p>走到指定的楼前就已经花了十分钟，迦尔纳进去时看见门房里吹着空调打盹的管理员，俯身在他面前的桌上填写了来访表格，才环顾四周，乘上了电梯，来到阿周那所在的楼层。</p>
+<p>尽管并没有被交代如何找到具体的房间，迦尔纳凭着直觉在虚掩着的一扇门前停下了脚步。他拉开金属的把手，映入眼帘的是白色的房间，沿着笔直的长桌陈列着数台电脑，灰色的主机在另一端并排延伸，屋里开着强劲的冷气，以至于让身上有些汗的迦尔纳在进入房间时抖了抖，塑料袋发出一阵声响，某个角落里露出的半个黑色的头动了动，很快站了起来。</p>
+<p>“谁……你来了。”阿周那穿着白色衬衣，外面还套了一件深蓝色的针织衫。大约他本以为推门的是一个无意间闯入机房的陌生人，结果在看到迦尔纳的瞬间便露出了笑容，推开眼前的作业走上前拿过他手里的东西，又拉开附近的电脑椅，“坐下吧，我暂时没办法脱开身，只能委屈你等一会了。”</p>
+<p>“没事。”迦尔纳拖着椅子在他的身旁坐下，“你在弄什么吗？”</p>
+<p>“嗯……”阿周那面对着屏幕，从沉思中稍微分了下神，“做数据模型，因为我的电脑用不了这个软件，就跟老师借了下钥匙。”</p>
+<p>他拿过旁边的保温杯喝了一口咖啡，又开始在键盘上敲打。迦尔纳知道这个时候不能打扰他，自己从包里摸出一叠实验资料和笔记本电脑，用阿周那的账号链接了校园网络，开始更新小组的实验数据。</p>
+<p>一下午的时间很快过去，持续的工作以阿周那突然响起的肚子为终结，迦尔纳笑了起来，对方气急败坏的拿过他买来的便当，塞进走廊茶水间的微波炉，中途一直保持着面红耳赤的样子，直到拿起筷子时才冷静下来。</p>
+<p>“不过说起来，为什么要建数据模型？”迦尔纳看了眼满是代码和数据的屏幕，显然阿周那一下午的时间并没有白费，此时工程已经进行了大半，或许晚上就能拿到什么结果。</p>
+<p>“作业要用。”阿周那夹起便当里的蔬菜，“用现成的也能得出答案，但还是有一定的误差。”</p>
+<p>“我同意。”迦尔纳点点头，“毕竟你一向追求完美。”</p>
+<p>“那是当然。”阿周那说道，“区区建立模型而已，还难不倒我。”</p>
+<p>“毕竟私下里这么努力，付出了这么多也应该有相应的回报。”</p>
+<p>“迦尔纳你……”阿周那叹了口气，合上了便当的盖子，将它扔进了垃圾桶。</p>
+<p>“又要继续了吗？”</p>
+<p>“不，一会再说。”回来时阿周那在迦尔纳旁边坐下，拧开保温杯的盖子，一小口一小口的抿着热水。</p>
+<p>“要睡一下吗？”</p>
+<p>“那倒不用。”阿周那放下杯子，摊开自己的手臂，“过来一下。”</p>
+<p>“？”</p>
+<p>一头雾水的迦尔纳靠了过去，果不其然被阿周那抱住摸了起来。</p>
+<p>“这莫非是你之前提到过的‘充电’？”</p>
+<p>阿周那移开了视线。</p>
+<p>“差、差不多是这么一回事……别动，”他将迦尔纳又往怀里按了按，“就这样过一小会。”</p>
+<p>过了半响。</p>
+<p>“好了吗？”迦尔纳问道。</p>
+<p>耳边的呼吸声十分平稳，以至于他开始怀疑阿周那是不是睡了过去。</p>
+<p>“阿周那？”</p>
+<p>“稍微安静一点……”阿周那的声音里透出些微的苦恼，“好久没见你了，让我摸一会。”</p>
+<p>“似乎是用很平静的语气说出了什么了不得的事啊，”迦尔纳在蓝色针织衫的袖子里环顾四周，“虽然没有监视摄像头，但有人突然来了怎么办？”</p>
+<p>“就当作是兄弟情深吧。”阿周那沉吟。</p>
+<p>“原来如此，学到了。”迦尔纳在他怀里点头。</p>
+<p>“等这一阵忙完了就回去吧？”阿周那突然问道。</p>
+<p>“柚李那里吗？”</p>
+<p>“嗯，还想蹭饭，已经吃腻了食堂和便利店。”</p>
+<p>“明明你回公寓的话也会给你做的。”</p>
+<p>“你吃醋了吗？”阿周那笑着问道。</p>
+<p>“没有。”迦尔纳扬起嘴角，“只是想满足你的欲望而已。”</p>
+<p>“你在说些什么令人误会的话。”阿周那一时心情复杂，但还是随着漂浮的思绪上了道，“什么方面的？”</p>
+<p>“什么方面都可以。”</p>
+<p>阿周那抱着他小声的笑了起来，连肩膀都在抖动。</p>
+<p>“怎么了？”迦尔纳抬起头来，和他对上视线。</p>
+<p>“不，只是稍微想起来一些事。”阿周那把头埋进他的颈窝，“之前还那么纯情的你也变成了现在这样，稍微有些感慨。”</p>
+<p>“这不是因为……”迦尔纳顿了顿，“你告诉我了这么多有的没的。”</p>
+<p>他突然间摸了下阿周那的腰，对方笑着跳了起来。</p>
+<p>“你居然偷袭我！”</p>
+<p>他也摸了回去，迦尔纳向后退了一点，躲开阿周那的指尖。</p>
+<p>“很遗憾。”迦尔纳模仿综艺节目里棒读的语气。</p>
+<p>突然之间他再次被抱住。</p>
+<p>“这回我抓到你了。”阿周那的声音里沉浸着温柔的笑意。</p>
+<p>“嗯。”迦尔纳回应他道。</p>
+<p>&nbsp;</p>
+<p>End.</p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Tempest/">Tempest</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%91%A8%E8%BF%A6/">周迦</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/07/11/Scent/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Scent</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/07/11/Tempest/">
+                        <span class="hidden-mobile">Tempest</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    function loadValine() {
+      addScript('https://cdn.staticfile.org/valine/1.4.14/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "YeywdQ1l0mtFyhc84O5AfKh6-MdYXbMMI",
+          app_key: "MYk3JcokGXl2DnNBAhsMTG1C",
+          placeholder: "说点什么",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "15",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    }
+    createObserver(loadValine, 'vcomments');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Tempest——とある日&nbsp;",
+      ],
+      cursorChar: "|",
+      typeSpeed: 50,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-175156571-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>

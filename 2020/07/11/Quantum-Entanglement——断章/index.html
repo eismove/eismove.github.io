@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="description" content="">
+  <meta name="author" content="扑热息痛">
+  <meta name="keywords" content="">
+  <title>Quantum Entanglement——断章 - 扑热息痛</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>扑热息痛</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/q.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-07-11 01:23">
+      2020年7月11日 凌晨
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.8k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      18
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>回到地球时正值深冬，阿周那直到离开空间站时都没有和地球小队的成员打上照面，然而在路上他们已经彼此互报了平安，他没有告诉其他人迦尔纳也跟来的消息，毕竟地面还有着严格的审查环节，等到那时候过去，或许一切还算称得上是尘埃落定。</p>
+<p>这时他和迦尔纳正从宇航飞机中走出来，从宇宙返回地面的步骤极其简单，然而想要从地面的大楼中出去并非易事，特别是他们所在的舰队做出了严重违反规定的行为，尽管在此之前由理向他保证迦尔纳将一路畅通无阻的离开，但是阿周那实在无法放松警惕。</p>
+<p>最先开始是宇宙放射物质的检测，他们没有携带任何东西，也就没有了下一道行李检查的关卡。迦尔纳跟在他的身后一语不发，阿周那听见他有些急促的呼吸声，不由自主的放慢了脚步。</p>
+<p>“怎么了？”</p>
+<p>“累。”迦尔纳小声的说完后又闭上了嘴，他们在审查人员的目光中朝着指定的方向前进，转过灰色的拐角，阿周那一路保持沉默，头顶是时刻监视着他们的摄像头，根据过去的课程似乎墙壁上还会安置相应的窃听器，以防止任何一个危险分子带着什么阴谋回到地面，在这种情况下，装作被这种沉闷的空气压倒反而比大咧咧的神态更加不容易引起注意。</p>
+<p>三个小时后所有的数据全部检查完毕，地面医生的身体检查报告已经发送至最后一个关卡，眼看着就要完成离开的手续，一个军官突如其来的挡住了他们的去路。</p>
+<p>“请问有什么事吗？”阿周那装作疑惑的样子问道。</p>
+<p>“必要的基因检查。”军官扬了扬手里的便携电脑，“请到检查室去。”</p>
+<p>&nbsp;</p>
+<p>在蓝色的投影屏幕跳动数据时阿周那多少还是有些紧张，他缓慢的调整自己的呼吸，一面向旁边的迦尔纳看去，然而对方却显得格外冷静，脸上毫无波澜，他察觉到阿周那的视线，甚至于回头向他露出了不明显的微笑。</p>
+<p>真是个毫无紧张感的家伙，阿周那暗自腹诽道。很快他的基因检查已经结束，迦尔纳的基因组输入了检索程序，阿周那想这道突如其来的程序大约和彼方由理提及的要清理这批人工诞生的士兵有关系，可能有人和他做了一样的事。</p>
+<p>那么接下来呢？他不能保证坂仓柚李不会把迦尔纳的基因以宇宙出生的士兵身份留存在地面的数据库中，假如事情朝着最糟糕的态势发展，那么他们应该如何躲过地面的追捕？</p>
+<p>他的思考在系统的提示音中强制中断，离得最近的研究员在屏幕后顶了顶眼镜，用眼神向一旁的警卫示意，对方点点头，右手习惯性的放在腰间的电击枪上，朝他们缓缓走了过来。</p>
+<p>瞬息之间，阿周那屏住了呼吸，他用余光观察着警卫的一举一动，来判断着他接下来的攻击动作。然而对方的行动却超出了他的想象——</p>
+<p>“检查没有问题，你们可以离开了。”</p>
+<p>“谢谢。”几乎是呼吸困难的说出这几个字，阿周那看了迦尔纳一眼，两人走出了检查室，通过地面最后一道文书关卡，总算是看到了属于地球的蔚蓝天空。</p>
+<p>阿周那最后回头望了一眼高大的白色建筑，和迦尔纳跳上通向外界的轻轨，在彻底自由之后他总算松了一口气，向着他露出微笑。</p>
+<p>“欢迎来到我的故乡，地球。”</p>
+<p>&nbsp;</p>
+<p>迦尔纳初来乍到时很不习惯地球的环境，特别是在第一次接触到真正的重力时，他活动了一会便很快消耗了大半的体力。阿周那根据彼方由理当时发来的邮件注销了两个人在地面的档案，总算是勉强拥有了正常人的身份，一边思考着接下来的工作，静下心来陪着他适应新的环境。</p>
+<p>在陆陆续续生了一个月的病后，阿周那总算带着迦尔纳打完了大部分常规疫苗，身体情况已经暂时不用担心，接下来需要做的无非是思考如何继续生活。这中途有地面的情报机关的人秘密来访，在阿周那的戒备中，对方很快拿出了一叠迦尔纳的医疗文件，并解释了自己只是受人之托，倒没有其他要调查的意思。</p>
+<p>“Boss命令我拿这些东西过来。”</p>
+<p>突然之间阿周那想起过去在迦勒底那时的疑问，在送来人离开时，他犹豫再三还是叫住了他。</p>
+<p>“让我问一个问题可以吗？”</p>
+<p>“我能回答的话。”</p>
+<p>“彼方由理和坂仓柚李究竟是什么人？”</p>
+<p>对方压低了帽檐。</p>
+<p>“他们是核心技术的研发小组成员。如果你有兴趣的话，”他抬起头来，“我想虫群第一次袭击地球时的资料或许会对你有些帮助。”</p>
+<p>“不必了。”阿周那察觉到他看似呆滞的眼神背后潜藏着的危险，很快在言语上表了态，“这些已经够了。”</p>
+<p>“是吗。”</p>
+<p>“阿周那？”迦尔纳的声音在二楼响起，“你在和谁说话吗？”</p>
+<p>阿周那看了一眼门口站着的裹紧大衣的男人。</p>
+<p>“你听错了吧？”</p>
+<p>那人冷笑一声，推门离开了。</p>
+<p>自那以后，阿周那没有再见过任何与地面有关的人，而这庞大的组织也伴随着舆论的热潮，逐渐失去了大量的资金支撑，应有的职能逐渐缩减。尽管说来有些可悲，阿周那在阅读投影屏幕上的文字时想起宇宙中的激战，不能否认的是灭绝一个种族的行为过于残酷，然而人们却始终无法认识到抛弃守护自己安全的战士们是怎样愚蠢的行为。因为不曾感同身受，仅仅只靠在社交网站留下的只言片语来左右大局的发展，所以他们始终仍未知道它们的威胁究竟是怎样的可怖。</p>
+<p>然而时至如今，他也仅仅只是这众多信息之海中的渺小一员，从地面的大楼中离开的那一刻，阿周那就已经不再拥有改变这些的权力，他选择了成为一个极其普通的人的道路，为了让迦尔纳能够过上同样极其普通的生活。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>End.</p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Quantum-Entanglement/">Quantum Entanglement</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%91%A8%E8%BF%A6/">周迦</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/07/11/Quantum-Entanglement%E2%80%94%E2%80%94%E6%96%AD%E7%AB%A0%E5%8F%88%E4%BA%8C/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Quantum Entanglement——断章又二</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/07/11/Quantum-Entanglement/">
+                        <span class="hidden-mobile">Quantum Entanglement</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    function loadValine() {
+      addScript('https://cdn.staticfile.org/valine/1.4.14/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "YeywdQ1l0mtFyhc84O5AfKh6-MdYXbMMI",
+          app_key: "MYk3JcokGXl2DnNBAhsMTG1C",
+          placeholder: "说点什么",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "15",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    }
+    createObserver(loadValine, 'vcomments');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Quantum Entanglement——断章&nbsp;",
+      ],
+      cursorChar: "|",
+      typeSpeed: 50,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-175156571-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>

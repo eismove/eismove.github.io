@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="description" content="">
+  <meta name="author" content="扑热息痛">
+  <meta name="keywords" content="">
+  <title>Chaos Inflatio - 扑热息痛</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>扑热息痛</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/q.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-10-10 05:15">
+      2020年10月10日 凌晨
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      5k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      50
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>2998.11.17</p>
+<p>透过光学模块所看到的雪原总有种独特的感觉。</p>
+<p>“目标接近，3点钟方向。”</p>
+<p>“已确认。”</p>
+<p>眼前的画面在狙击镜中被放大，被扭曲，所有的一切都开始变得不稳定——他屏住呼吸，让自己也融入这瞬息的片刻中，等待着目标露出破绽的时机。</p>
+<p>轰鸣的枪响在空气中炸裂开来。</p>
+<p>“目标已击毙，你可以回来了，路上小心。”</p>
+<p>“是。”</p>
+<p>迦尔纳从耳后拔下与枪体连接的光学模块，悄无声息地离开了雪丘。</p>
+<p>&nbsp;</p>
+<ol start="2969">
+<li>■.■</li>
+</ol>
+<p>繁华却晦暗的街道。</p>
+<p>他在泥泞中奔跑着。</p>
+<p>你打算做什么？</p>
+<p>攥在手心的PPC开始震动，他没有停下脚步，在道路的深处接通了线路。</p>
+<p>“我现在就过去，你什么也别做！”</p>
+<p>听筒的彼端却是令他毛骨悚然般的死寂。</p>
+<p>“你听见了吗，什么也别做——”</p>
+<p>“——已经太迟了。”</p>
+<p>脚下的地面剧烈地开始摇晃，几乎让他站立不稳。</p>
+<p>“你做了什么？回答我！”</p>
+<p>远处的霓虹灯光开始溶解，随之而来的是耀眼庞大的白色光芒。</p>
+<p>PPC的信号被切断了。</p>
+<p>&nbsp;</p>
+<p>只剩下疼痛可言。</p>
+<p>不，或许已经没有任何残留。</p>
+<p>冰冷的雨点从遥远的天空坠落，被切断的神经逐渐开始溶解——</p>
+<p>有人来了。</p>
+<p>&nbsp;</p>
+<p>2998.12.29</p>
+<p>高纬度地区特有的冷风总是持续不停，他摘下头盔时，压平的发丝一下子被吹得纷乱。短暂的片刻之间，听觉组件捕捉到翅膀扇动的声音让迦尔纳的视线从白雪覆盖的冻土转移到一望无际的高空，视野也随着系统的自动调整而一下子变得开阔明亮。</p>
+<p>是一只灰色的鸟。</p>
+<p>他注视着它因飞翔而颤动着的每一根羽毛，直到它穿过平原，消失在黑色森林的怀抱之中。</p>
+<p>别在外套上的发信器吱呀响了起来，通讯信号沿着线路在听觉组件内被分解重组，他习惯性地抬起手盖住那边的耳朵，以降低环境音的干扰。</p>
+<p>“喂，喂，你听到了吗？”</p>
+<p>“听到了，什么事？”</p>
+<p>“我们找到他了，详细等你回来再说。”</p>
+<p>迦尔纳环顾四周一圈。</p>
+<p>“巡视呢？有人和我换岗吗？”</p>
+<p>“有的，现在已经派出去了，你直接回来就行。”</p>
+<p>&nbsp;</p>
+<p>半小时后，迦尔纳穿过基地温暖的长廊直达作战会议室。</p>
+<p>金属制的滑门向侧边移开时，里面坐着以彼方由理一众高层人士。</p>
+<p>“你来啦。”她向他挥了挥手，然后指向附近的一把椅子，“总之先坐下说。”</p>
+<p>“他在哪里？”迦尔纳边走过去边问道。</p>
+<p>“在南极圈深海。”由理将一台PC推了过来，屏幕上显示着一幅手绘的地图，“使我们的特工找到的，而且她有充分的证据表明我们并不会扑了个空。”</p>
+<p>“但愿如此。”</p>
+<p>“毕竟我们要是被假饵钓上钩的话问题就麻烦了，所以我请她和其他几名线人做了详细的调查，现在我们有了详细的地图和对方可能的应急方案，剩下的就是策划整个行动了。”</p>
+<p>迦尔纳浏览了PC里的照片，那些数据很快在他的脑海里成型，剩下只需要一个计划将它们全部串联起来。</p>
+<p>他抬起头：“什么时候执行？”</p>
+<p>“1月1号，作为人们传言中，媲美1999世界灭亡论的30世纪末世界灭亡预言中所谓一切灾厄开始的第一天，这个时间不错吧？”由理摊手，露出狡黠的微笑，“也符合我们的行动目标，是个利于我们组织的吉日。”</p>
+<p>那种疯狂总是让迦尔纳无法习惯。</p>
+<p>“人员和物资呢？”</p>
+<p>“基本已经就位了。”</p>
+<p>“所以现在欠缺的是具体计划？”</p>
+<p>“没错。”由理示意旁边的副官打开桌面上的成像仪，“我们的计划是先乘坐飞机到达寒带附近，再换潜艇潜入，离开的时候因为对方可能会使用洲际导弹以及新型曼哈弹，所以乘坐穿梭机。”</p>
+<p>“周边的军舰怎么解决？”</p>
+<p>“放心，这次是多队作战，海面上已经有专门的舰队了，届时你带着小队趁着海战制造的混乱潜入。”</p>
+<p>“真是混沌的计划。”</p>
+<p>“毕竟事情要做得盛大点嘛。”由理耸耸肩，“海战的事情有专门的人来负责，你们只需要进去把人带出来。”</p>
+<p>“我们有多长时间？”</p>
+<p>“十分钟。”由理打开了准备好的结构图，“你刚才已经看到了，这是个形状类似于哑铃的海上基地，也就是说，从上面到下面只有一条路，你们需要乘坐内部的电梯进入深海区域，并且再原路返回。”</p>
+<p>“对方的应急方案里没有炸毁基地的内容吗？”</p>
+<p>“毕竟是应对深海水压以及外部攻击用的建筑。”由理笑了笑，“毕竟想杀掉我们目标的组织也有不少。”</p>
+<p>“小队的人选呢？”</p>
+<p>“选你觉得靠谱的，另外把他也带上。”由理起身从房间的角落里拉出一个人，“柚李，他可以帮助你们破解内部的电子障碍。”</p>
+<p>&nbsp;</p>
+<p>■■■■.■.■</p>
+<p>只有彻骨的寒冷。</p>
+<p>没有身体，没有知觉，一切是虚无的黑暗，和，自由的意志。</p>
+<p>无处可去的意志并非自由可言。</p>
+<p>刺痛灼烧着神经。</p>
+<p>“■■■■■■■■。”</p>
+<p>“■■■■。”</p>
+<p>“■■■■■！”</p>
+<p>“■■■■■■■？”</p>
+<p>“■■■。”</p>
+<p>强烈的光芒撕碎了世界。</p>
+<p>他只能看到几个模糊的人影，以及昏暗的房间。</p>
+<p>“他醒了吗？”</p>
+<p>“他醒了。”</p>
+<p>&nbsp;</p>
+<p>同时有几个人在交谈。</p>
+<p>“冷冻睡眠对这行动有影响吗？”</p>
+<p>“没办法，不行就只能扛走了。”</p>
+<p>“你先套上防护服跟我们离开，有什么话之后再说。”</p>
+<p>他转过头，看到远处有一抹熟悉的白色。</p>
+<p>“你……”</p>
+<p>不知为何，看到对方的脸，他只感到一种异样，特别是那双眼睛，就像是和无机质的玻璃对视，看到的没有任何人类的情感，却也不是纯粹物质的虚无。</p>
+<p>他觉得恐惧。</p>
+<p>“时间到了。”对方的语气不容置疑，“我们要走了。”</p>
+<p>话音未落，他快步上前将他抓了起来，旁边的人立刻给他的衣服外套上了一件外套，又强迫他穿上额外的裤子和鞋，然后扣上一个头盔。</p>
+<p>房间外侧传来嘈杂的脚步声。</p>
+<p>“我先出去，你们之后跟上来。”</p>
+<p>之后是剧烈的枪声和手雷爆破的轰鸣。</p>
+<p>&nbsp;</p>
+<p>2999.1.1</p>
+<p>柚李坐在穿梭机上长长地叹了一口气。</p>
+<p>“刚才真是急死我了，还以为就要这样被海水压扁了。”</p>
+<p>“你说这个是因为你跑的最慢吗？”一旁的成员打趣道。</p>
+<p>“我们还以为你改造之后身体素质会更好呢。”</p>
+<p>“电子战特化的组件和物理作战的组件完全不同好吗。”柚李略郁闷的说道，“而且我只装了一小部分组件，四肢还是普通人类。”</p>
+<p>“你们想来点什么吗？”穿梭机上的后勤人员开口道，他指了指旁边的箱子。</p>
+<p>“伏特加。”一个人举手开玩笑道。</p>
+<p>“那你还是喝航空机油吧。”另一个人吐槽。</p>
+<p>“至少管够。”</p>
+<p>其他人都哄笑起来。</p>
+<p>带着笑的后勤看向机舱的角落，一时间有些不知所措。</p>
+<p>“呃，是我不应该在任务中途开玩笑吗？”</p>
+<p>在众人的面面相觑中终于意识到问题在于自己身上的迦尔纳歪了歪头：“怎么了？”</p>
+<p>“大概这家伙没接触过改造过后的人吧。”之前一直在检查他们带回来的目标的军医把用过的器械塞回医疗箱。</p>
+<p>“你不必在意这些，我只是情感波动很小而已。”迦尔纳面无表情的说道。</p>
+<p>“话说回来我们降落之后要怎么办？直接在当地基地驻扎吗？”其中一个队员问道。</p>
+<p>“通常是这样，但这次不一样，所以之后会很忙。”迦尔纳回答他。</p>
+<p>“这个问题等回基地再探讨吧。”柚李开口道。</p>
+<p>&nbsp;</p>
+<p>2995.5.27</p>
+<p>几十只枪口组成了一个完美的闭环。</p>
+<p>“希望你不要认为我们有什么敌意，我们的长官想和你谈谈，而我们这么做只是出于自保，如果你不反抗的话什么也不会发生。”</p>
+<p>迦尔纳的光学组件追踪着那个人墙外围，几乎是用无可奈何的语气说话着的小队长。</p>
+<p>“我为什么要相信你们的说辞？”</p>
+<p>“因为我们知道你们驻扎的基地，却并没有对你的人下手，只是在你因为知道这一切而单独外出时来到你面前寻求平等合作。”</p>
+<p>“那么你们为了寻求合作的长官呢？”</p>
+<p>“抱歉抱歉，我来迟了。”从更远的地方传来有些不正经的语调，“你们也别举着枪了，万一擦枪走火了问题就大条了。”</p>
+<p>“是。”小队长答道，“都把枪放下。”</p>
+<p>“不过这天也怪冷的，”在瞬息之间，一个橙发的女性出现在迦尔纳的面前，“不如我们换个暖和点的地方单独聊聊？”</p>
+<p>“我没有时间跟你闲聊。”</p>
+<p>女性长官露出了微笑，她摊开双手，就迦尔纳目光所及她并没有携带任何武器，某种程度上而言反而让迦尔纳感到了惊讶，毕竟这个时代人人都习惯于带着些防身的道具。</p>
+<p>“我认为我这里能够让你得到你想要的真相，这也是我想和你谈谈的原因。”</p>
+<p>“什么真相？”</p>
+<p>“2969年，你我所知的那场世界性灾厄。”</p>
+<p>&nbsp;</p>
+<p>“总之，先坐下吧。”</p>
+<p>迦尔纳环视了一圈封闭的室内，无论是光学还是红外组件都并没有找到任何可疑的存在。</p>
+<p>自称彼方由理的女性长官打开一边放着的酒瓶，倒进桌上的两个杯子里，她拿起自己的那杯喝了一口，然后等待着迦尔纳拉过椅子在自己面前坐下来。</p>
+<p>“我来是想招募你加入我们的组织。”她开口道。</p>
+<p>迦尔纳没有说话，也没有碰桌上的那杯酒。</p>
+<p>“你怀疑我会在里面放什么毒药吗？”</p>
+<p>“不。”迦尔纳回答她，“我没有味觉，喝酒只是徒增精神负担罢了。”</p>
+<p>她起身从冰箱里掏出一瓶纯水放在他面前，然后摊了下手。</p>
+<p>“只是客套。顺便多谢你让我扩充了点知识量。”</p>
+<p>“所以你说的真相又要怎么得到？”</p>
+<p>“我们都知道2969年的那场灾厄是人为的，而所有人到现在都不乐于提起那个始作俑者的名字。从那场范围覆盖全球的复数连续性爆炸开始，环境破坏，物资紧缺，人们在谈判桌上赖了数年，最后将一切付诸于战场。”</p>
+<p>“但最近的战争已经逐渐平息了，而且国际性的联合机构也要重建。”</p>
+<p>“你打心底这么觉得？”由理挑眉，“那么你能够解释十几年前，在人们还在谈判桌上你死我活时，为什么那些反战派都被一个接一个地抹杀了？”</p>
+<p>“我不认为那背后有什么阴谋论。”</p>
+<p>“前提是‘如果有话语权的反战派还活着’。”她把一台PC放在迦尔纳面前，屏幕上显示的是一串名单，“顺带一提，这些人不是在开战后被抹杀，而是开战前就已经被解决了。另外，除了反战派，当时的国际联合组织中不少人也失踪或者死亡，极大地加快了人们离开谈判桌的过程。”</p>
+<p>“那么你的意思是有人在背后推动着战争的开始？而且是这样猖狂的行为？”</p>
+<p>“不仅如此，我和我的组织认为，2969年的事件和现在发生的一切都息息相关。我可以在这里大胆地向你预言，新的战争即将开始，而国际性的联合机构也不会重建，之后的国际会议必定受到袭击。你完全可以在听完我的说辞后，等待国际会议开始的那天，之后你再决定是否要与我们合作。”</p>
+<p>“你们的目的是什么？单纯寻求军事力量或者情报支援的话也没有必要来找我。”</p>
+<p>由理竖起两根手指。</p>
+<p>“两个原因，第一，你是战时的军用改造人，为了我们的未来目标，我们需要一个单体作战能力极高的合作对象，第二，你和1969年的灾难始作俑者有关联，而我们的未来目标就是找到他，把他带回世界舞台。”</p>
+<p>迦尔纳皱眉。</p>
+<p>“什么意思？你们到底打算做什么？”</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>2999.1.1</p>
+<p>大概是因为周围有普通人类的对比，他意识到了那异样为何。</p>
+<p>他想到某种词汇，能够很好地诠释面对对于似人却又非人的存在时，所感到恐惧的根源。</p>
+<p>——对方从来没有眨过眼睛。</p>
+<p>&nbsp;</p>
+<p>“你不记得当时发生了什么吗？”迦尔纳问道。</p>
+<p>周遭的一切对他都是茫然和未知。</p>
+<p>“对不起，我不明白你说的是哪部分。”他皱眉，“能说的更详细一点吗？”</p>
+<p>“我是指那场爆炸。”迦尔纳的语气带着某种不留情面的威胁和逼迫。</p>
+<p>“爆炸？”</p>
+<p>“2969年，你在被抓之前都做了什么？”</p>
+<p>“2969？现在不是2968年吗？2969年发生了什么吗？”</p>
+<p>“他不记得了。”某个陌生人说道。</p>
+<p>迦尔纳在他的注视中起身就要离开。</p>
+<p>“迦尔纳，”他有些急切地叫住他，“告诉我发生了什么？”</p>
+<p>白发的军人转过头。</p>
+<p>“现在已经是2999年了，阿周那。”</p>
+<p>病房的滑门自动闭合，他坐在床边看向晦暗的角落。</p>
+<p>不可能。</p>
+<p>如果说30年已经过去，那为什么迦尔纳还是他记忆中的模样。</p>
+<p>&nbsp;</p>
+<p>2995.5.27</p>
+<p>“你知道宇宙大爆炸理论吗？”</p>
+<p>“战前的学校里学过，为什么说这个？”</p>
+<p>“为了打个比方。我们认为现在的世界就像是宇宙大爆炸之后的一个初期，所有的一切仍然带着高热和高压，短时间内想要恢复所谓的稳定秩序是不可能的。所有的资源仍然短缺，人类的攻击性和仇恨只会更加深刻，何况这里面还有一个我们谁都不知道的推手在控制一切的进程。”</p>
+<p>“所以你们认为达到相对稳定还需要更长时间吗？”</p>
+<p>“不，相反，我们认为并不需要太长时间，只需要让一切发生‘暴涨’，让战争不可控地激烈到将那些想要战争稳定持续以及那个推手全部卷进来。我们要予这世界以更强的混沌。”</p>
+<p>“但有多少人会因此丧命？”</p>
+<p>“短暂战争的高死亡率和长期战争带来的饥荒等等一切灾害的死亡率哪个会更高？这里面，死的最有价值的又会是哪个呢？”</p>
+<p>迦尔纳沿着话题的走向开始思索。</p>
+<p>“这就是你们组织的目标？你们把阿周那带出来想做什么？那个推手做这些究竟打算干什么？”</p>
+<p>“那个推手毫无疑问是要借阿周那当最大的挡箭牌，好让人群的关注点远离他们。现在我们都知道阿周那被关在某个地方，无论所有人有多么大的不满，只要他还被关着一天，那么这种不满的情绪就无法被毫无顾忌的释放出来。就算对那个推手有什么不利的质疑，只要他们稍微拿着这个挡箭牌晃一晃，舆论的风向很快就会被转变。现在我们将他带出来，让所有人知道他们有了复仇的机会，同时也拿走了他们的挡箭牌，那么你认为接下来会发生什么？那些之前认为一切都可控的势力接下来还能够控制失去理性的人群吗？”由理带着笑意看着他，把手中的杯子放在桌上。</p>
+<p>她的动作和神态透出一股彻头彻尾的疯狂。</p>
+<p>“你们要和整个世界抗衡吗？”</p>
+<p>“我想恐怕你对我们知之甚少，‘灰鸟’的成员众多，且遍布世界各地。”</p>
+<p>“在此之前我从来没听到过你们的名字。”</p>
+<p>“现在你知道了，虽然我们的想法看上去很疯狂，但我们并不乐意张扬，最大的混沌需要最庞大的炸药，这是我们所有成员的信条。”</p>
+<p>“如果混沌的最后什么都不剩呢？”</p>
+<p>“你记得1999年的世界灭亡预言吗？”</p>
+<p>“玛雅人还有2012年的预言，然而世界还是没有毁灭。”</p>
+<p>“战争开始时人类又不知疲倦地创造了30世纪末世界灭亡预言，我想，如果我们无法战胜这场混沌，那么或许这预言终于可以变成真的了。”</p>
+<p>“就算战胜了，混沌的尽头还会剩下什么？”</p>
+<p>“你认为战争真的会毁灭一切吗？”</p>
+<p>迦尔纳抚摸着装着纯水的瓶子。</p>
+<p>“战争会催生技术进步，这是你们的另一个目的。”</p>
+<p>“我想现在你已经明白我们所有的想法了。我想邀请你们加入‘灰鸟’，并且之后我们会帮助你找到阿周那，这样你就可以了解到2969年你未知晓的真相。”</p>
+<p>“这是让我的同伴去送死。”</p>
+<p>“并非如此，我希望你们作为志同道合的一员加入。”由理说道，“我们要选择自己的死。”</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>FT：</p>
+<p>一个勉强算是B周迦的文，只不过是三破了，所以好像也没啥区别，不过2969年的是一破周那</p>
+<p>其他细节懒得搞了，写个爽爽，反正我要过生日了，图一乐，顺带这次想安利一部克苏鲁类型的游戏《The last door》，所以会在自己的lof里整个抽奖，红心蓝手均可，之后会抽一个送这部游戏，大概steam版和ios版二选一吧，推荐都来玩一下（草</p>
+<p>这篇是听了烧钱的夏活ed《Rainfall》脑的，有什么设定上的既视感的话都你懂得（草</p>
+<p>不过周那那个算是全世界好几个爆破点同时炸了，然后周围被疯狂污染，一个不剩</p>
+<p>他们的世界有针对改造人专用的电容震撼弹（手雷那种），被搞了就动不了了，迦这种普通手雷伤不到的，毕竟军用，他是被爆炸波及，炸得只剩下四分之一个身体了，被捡回去直接改造，有点魍魉之匣内味，总之他的意识已经不完全是人类的意识了，有很多机械的冷酷，所以没有什么情感起伏</p>
+<p>周那那事背后有黑幕</p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%91%A8%E8%BF%A6%E7%9F%AD%E7%AF%87%E9%9B%86/">周迦短篇集</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%91%A8%E8%BF%A6/">周迦</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/10/17/Surplus-5/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Surplus - 5</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/08/09/Verses/">
+                        <span class="hidden-mobile">Verses</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    function loadValine() {
+      addScript('https://cdn.staticfile.org/valine/1.4.14/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "YeywdQ1l0mtFyhc84O5AfKh6-MdYXbMMI",
+          app_key: "MYk3JcokGXl2DnNBAhsMTG1C",
+          placeholder: "说点什么",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "15",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    }
+    createObserver(loadValine, 'vcomments');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Chaos Inflatio&nbsp;",
+      ],
+      cursorChar: "|",
+      typeSpeed: 50,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-175156571-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
