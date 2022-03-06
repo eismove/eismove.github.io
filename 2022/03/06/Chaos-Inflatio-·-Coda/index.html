@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="description" content="">
+  <meta name="author" content="扑热息痛">
+  <meta name="keywords" content="">
+  <title>Chaos Inflatio  · Coda - 扑热息痛</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>扑热息痛</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/q.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2022-03-06 15:52">
+      2022年3月6日 下午
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      19
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>2999.12.31</p>
+<p>&nbsp;</p>
+<p>湍急的气流迅猛地掠过高空，铺天盖地的，就像是要将整个身体淹没似的，连同喉咙深处声音模块发出的模拟语音传进听觉模块时都令人感到遥远而恍惚。</p>
+<p>余光里的大地被黑暗笼罩，让他想起1月1号那天望见的深不可测的大海——灵魂超过肉体的界限跃入冰冷的海水，在亿万年尸骸的包裹中消亡，最终被无形的洋流裹挟，沉没在晦暗的深渊。</p>
+<p>视觉模块再次聚焦，高耸建筑顶部的尽头站着一个和他一样的人——一个改造人。如果按照他的标准来评价的话这里甚至并不存在任何人类，只有两个无力的肉块操作的冰冷机械，失去了以自然而生的资格，却也同样无法位列于机械的行列之中。作为旧时代的亡灵，徘徊于这个没有形态和边界的世界之海。</p>
+<p>他张了张嘴，强烈的风暴让听觉模块已经变得收音困难，但他并没有因此建立更便利的电子通讯，而是真正意义上的使用发声模块进行交流。</p>
+<p>“你终于愿意出现了。”</p>
+<p>“你是什么时候意识到我的存在的？”</p>
+<p>对方的语气相当平缓，但并不意味着这是场足够冷静的对话。</p>
+<p>“从一开始。或许说如果不是被改造我还会认为你已经被关在南极圈了。”</p>
+<p>“这意味着从我救你开始就导致了这个计划的不完美吗？”</p>
+<p>“即便你不救我我也会有同样的猜测，只不过在没有任何明显缘由，只是个被卷入战火的平民的我却被军方拯救并改造之后我就确定了这点。毕竟如你这般精神洁癖的人，一件事如果不是在自己掌控之中是绝对不行的。所以在深海里找到那个只有2968年记忆为止的‘你’的时候我就知道他只是个复制品，真正的你已经变成和我一样的存在。”</p>
+<p>对方拍了拍手，似乎满意于他给出的回答。</p>
+<p>“但即便如此你也没有告诉由理。”</p>
+<p>“因为她根本不在乎那是不是复制品，灰鸟的目的是重建世界，而我的目的是为你的行为和我的失责偿还代价。”他一边说着一边给手中的手枪换上了新的弹匣，又上了膛，“我知道你所谓的‘改造我’有你自己的目的所在，但我既不认同你改变世界的方针，也不打算为你所谓无尽的生命而陪葬。我不知道你究竟在2968到2969年目睹了什么最终改变了你的想法，但是我拒绝你所追求的完美的世界，因为完美的世界本就不存在。万事万物，从我们的个体到整个宇宙仅仅是依靠着微妙的平衡而存在，从没有任何类别能够到达完美的终点。”</p>
+<p>“不！完美的世界是可以存在的——”</p>
+<p>“如果你认为到达完美世界的方式是抹消不完美那么就大错特错了。那样你所抵达的最终会是只有你的世界，然而到了那时你还能够坚信你自己是完美的存在吗？即便是活着也不得不被浸泡在玻璃皿中，行动只能倚靠需要不断维护的机械，这种生命的存在方式只有畸形可言，而当你消灭之后，整个世界也将一无所有。又或是说，你对完美的世界能够提供什么具体的描述？要用什么样的手段来达到一个根本未知的结果？”</p>
+<p>他向前走了一步。</p>
+<p>“但即便这样你也无法杀死我。”</p>
+<p>“然而我必须要杀死你。这是这30年来我唯一打算要做的事。”他在摇摇欲坠的高处顶着海啸般的狂风向前走去，“如果你的话语是指你还有其他复制品的话，早就被我们消灭了，剩下的只有我们脚下的这些。但这些也会即将消逝，一如你和我。”</p>
+<p>“迦尔纳！”</p>
+<p>“2969年，我后悔没有能够找到你阻止你的所作所为，但是现在我要终结这一切。阿周那！”</p>
+<p>他缓慢的脚步逐渐加速，旧型号的作战组件在系统中燃烧、解离，意识中唯一闪现的只有凭借记忆和经验的预判——对方射出的子弹在光学模块中留下灼热的静止画面，他跨越凝固的刹那，直到两人的距离已经不足以让任何枪械起到良好的攻击效果。旧型号的人工躯体向着技术顶峰发起搏击，锋锐的战术军刀瞬间切碎仿生皮肤，细小血珠般的精密零件向着深邃的宇宙迸射，无机质的肢体被残暴的扭断，人造肌肉在撕碎的瞬间发出凄惨的嘶鸣。当这几乎压倒性的虐杀结束时，地面上只剩下从残肢断面亮起的耀眼火花。</p>
+<p>他注视着那副躯体在冰冷的水泥上留下惨烈的痕迹。为了不让对方有任何可趁之机，他又补了几枪，在废除所有肢体功能的基础上彻底破坏了主轴，深红的仿生血液沿着墙壁淹没了整个平面，每当他走出一步都响起令人毛骨悚然的声响。</p>
+<p>“为什么……”</p>
+<p>黑色的瞳孔凝视着他。</p>
+<p>“这副身体明明已经达到了如此的——！”</p>
+<p>“因为我比你见过更多的战场，亲手了结过更多的生命。”</p>
+<p>他抬起上了膛的手枪。</p>
+<p>“你要杀了我吗？”</p>
+<p>“不，在那之上。”</p>
+<p>迦尔纳俯视着阿周那。</p>
+<p>“我要毁灭你所有的执念和空想。”</p>
+<p>抬起头时，他似乎看到一只灰色的鸟掠过云层。</p>
+<p>枪口抵在下颌和脖颈之间，机械的手指并没有任何犹豫与颤抖，玻璃皿破碎的声音宣告了漫长梦境的终结。</p>
+<p>&nbsp;</p>
+<p>从遥远的地平线传来一阵不详的震动，阿周那从桌边站起身来，直觉驱使着他穿过基地打开封闭舱门——</p>
+<p>明亮炽热的白色光芒在深色苍穹的尽头亮起，片刻后，急剧的气流扑面而来。他被由理立刻拉了回去，对方淡定地扣上舱门，安静的室内能够清楚地听见森林被压垮，峡谷夷为平地，反而凸显了此时外界的凶险。</p>
+<p>“好险，基地差点就没了。”由理假装叹气，又立刻别有深意地扬起嘴角，“但是被掀翻也挺有意思的——你怎么了？”</p>
+<p>阿周那张着嘴怔了半饷，心脏跳得飞快，让他忍不住攥紧了一侧的衣角。</p>
+<p>“——迦尔纳呢？”</p>
+<p>由理眯起了眼睛。</p>
+<p>“你为什么问这个？”</p>
+<p>“那个方向不是……？”</p>
+<p>由理脸上冰冷疯狂的笑意像是一把闪着寒光的利刃。</p>
+<p>“那个方向？你为什么关心这个？”</p>
+<p>在阿周那失语的片刻她绕开他走向走廊的深处。</p>
+<p>“他选择了自己的死，而他的死就是一切的起爆开关。”</p>
+<p>她停下脚步转过身来，对着阿周那张开双臂。</p>
+<p>“世界末日的预言没有实现，新的世界要到来了。连同他带给你的一起。”</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>End.</p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Chaos-Inflatio/">Chaos Inflatio</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%91%A8%E8%BF%A6/">周迦</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/03/06/%E7%BA%AF%E7%99%BD%E5%A6%82%E9%9B%AA-Repeat-%E7%89%87%E6%AE%B5/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">纯白如雪 Repeat - 片段</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2022/03/06/%E5%A4%9C%E6%9B%B2/">
+                        <span class="hidden-mobile">夜曲</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    function loadValine() {
+      addScript('https://cdn.staticfile.org/valine/1.4.14/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "YeywdQ1l0mtFyhc84O5AfKh6-MdYXbMMI",
+          app_key: "MYk3JcokGXl2DnNBAhsMTG1C",
+          placeholder: "说点什么",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "15",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    }
+    createObserver(loadValine, 'vcomments');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Chaos Inflatio  · Coda&nbsp;",
+      ],
+      cursorChar: "|",
+      typeSpeed: 50,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-175156571-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
