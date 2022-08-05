@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="description" content="">
+  <meta name="author" content="扑热息痛">
+  <meta name="keywords" content="">
+  <title>Waltz - 扑热息痛</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>扑热息痛</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/q.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2022-08-05 15:51">
+      2022年8月5日 下午
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      3.2k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      31
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <p>要猜透年长者的心思往往是一件困难的事。</p>
+<p>年轻的alpha看着窗外从午后开始就连绵不断的阴雨，屋外的走廊时不时有仆人忙碌走动的声音，明明最近什么需要特别准备的事都没有，这幢位于王都的宅邸里却仍然十分热闹。他从窗户的方向收回视线，放下手中的笔来到燃烧着木柴的壁炉前，拾起旁边的火叉翻动了几下堆积的木头，看着刚刚萎靡的火焰又重新变得旺盛，连带着周围的空气似乎也变得有那么一点温暖起来。他放下了手中那沉重的金属器具，决定不再回到书桌前，而是留在壁炉前的沙发上阅读还剩下一半的书籍。</p>
+<p>只是这种寂静中唯一令他在意的是迦尔纳还没回来的事实，尽管年长者总是一再拒绝着他的告白，却也没有因此就与他彻底决裂关系，因而迦尔纳的晚归或许仅仅只是还有些事没有处理完罢了。但是常常和他同行的阿周那却在雨势稍弱的时候便回到了家，甚至和他在只有两个人的情况下难得地共进晚餐。他想阿周那应该是知道些什么的，毕竟看上去那像是深度分离焦虑患者的年长者并没有露出些什么坐立难安的神色，但毫无疑问，就算他真的去询问，对方也不可能就直接地给他想要的答案。</p>
+<p>深沉的雨声中突然响起清脆的马车铃声。</p>
+<p>Alpha一下子站起身来，他甚至来不及合上手中的书本，索性将它摊开留在了桌上，打开房门快步走了下去，在阿周那出现之前就已经到达了玄关。被听到声音的女仆叫来的管家同样在他抵达后才出现，他拿着雨伞，为他推开厚重的木门，外界潮湿冰冷的空气夹带着雾气一下子涌进室内，甚至让alpha都退缩了一下。但在马车出现在门口时，他还是在管家的跟随下走了出去，而这时阿周那才出现在楼梯口，不紧不慢地走了过来，路过玄关时，旁边的男仆也撑着伞跟了上来。</p>
+<p>年少者等待马车夫打开湿漉漉的车厢门，但是他抬头望着那昏暗的狭小空间等了片刻，里面却像是没有人一般陷入到寂静之中。最终，他也只好踏进了车厢，在靠门的椅子上找到了坐在那的迦尔纳，他抬头看着眼前的闯入者，却没有任何开口说话的意思。两人就那样一语不发地互相注视了许久，最终，还是以无法按捺住性子的年少者先开口告终：“迦尔纳，你没事吧？”</p>
+<p>Omega并没有回答他，他只是审视了对方一阵，看轻了来人是谁后便垂下了眼睑，没有什么表情地靠着座椅，裹紧了身上的斗篷，似乎是开门时吹进来的冷风让他难以忍受。只是到了现在，alpha也终于反应过来对方异常表现的原因：车厢内漂浮着浓重的酒精味。</p>
+<p>真是令人奇怪，在他记忆中，迦尔纳向来不怎么愿意主动喝酒，更别提是喝醉，而或许这还是他第一次看见对方喝醉的样子。</p>
+<p>这样的结果是阿周那最后独自上前将omega抱了下来，甚至是他刚走上前，原本一动不动的迦尔纳就自己站起身，但因为酒精带来的强烈眩晕，他在向下踩台阶时便失衡从车门边倒了下来，径直地落进年长alpha的怀里。整个坠落过程的速度之快甚至让同样在车里的年少者没有反应过来，而omega则伸手环住了对方的脖子，一语不发地就那样抱紧了阿周那。而期间所有在场的仆人也无法出手帮忙，只得举着伞讪讪地站在一旁为阿周那遮雨。年长的alpha意识到无法让几乎挂在自己身上的omega正常走回宅地内，便索性将他抱了起来。</p>
+<p>或许背着会更好，但似乎他们双方之间已经达成了某种心照不宣的默契，最终还是形成了眼下这样姿势，而年少者只得在他们身后跟着，甚至根本无法插进年长者们之间那种怪异的、沉默的氛围。阿周那最终将迦尔纳放在了他们两人房间的沙发上，他本想起身去拿旁边管家准备的毛巾，却被靠着他的omega抓住了胳膊，于是他转头，看向了房间里唯一还留着的年少者。</p>
+<p>“能帮我拿一下毛巾吗？”他问道，又在对方的注视中加上了感谢的话语，而那也是年轻人头一次从他嘴里听到请求自己的话语。</p>
+<p>于是他也没有任何非要拒绝的余地，拿过毛巾递上前去，在看了眼迦尔纳的状态后，alpha举起桌上的茶壶，将还温暖着的茶水注入到瓷杯之中。他加了一块方糖，念着omega并不喜欢牛奶，所以只是搅拌了一下便递给了阿周那。明白他意思的阿周那却也只是苦笑着摇了摇头，他很少对其他人露出这种困扰的表情，为数几次基本是因为迦尔纳的缘故。然而他这样的动作也只是让omega将他抱得更紧，浅色头发和深色外套上残留的雨珠全部蹭在了对方的外衣上，最终也让阿周那手里的毛巾变得毫无用处。</p>
+<p>“迦尔纳他没事吗？”他踌躇地问道，尽管预感到或许离开是最好的选择，然而对阿周那的胜负欲却让他还是留在了这里，并且坐在了他们旁边的沙发上，借着壁炉中跳动的火苗观察着看似亲密却又完全不像是这种氛围中的两人。</p>
+<p>“只是喝醉了吧，毕竟据说今天见的客人酒量惊人，就连我也并不是很想出席这样地狱的宴会。”阿周那轻佻地说着，让人很难分辨他哪些是在陈述事实，哪些是在开玩笑。他抬手一下一下地抚摸着紧贴自己的迦尔纳的头和后背，没有任何多余的意思，而是极其普通的、不是安抚更像是掺杂着些许爱意的抚摸，而omega的姿势看上去并非是因为分离或者是寻求安慰，更像是一种同样普通不过的“行为”——说是依赖似乎并不完全恰当，说是撒娇似乎又有些夸大其词。</p>
+<p>但是刚才车里时他所见的散发出莫名气场的迦尔纳却因此变得安定，然而这种变化并非像是有所欠缺的存在得到了足以填补的部分变得完整，他依然还是独立存在着的，只是……</p>
+<p>果然他还是无法理解这两人之间那种微妙的关系。</p>
+<p>壁炉里的火焰静默地燃烧着，偶尔发出“噼啪”的声音。</p>
+<p>“那为什么你同意他去了呢？”</p>
+<p>“因为他想见朋友。”</p>
+<p>年长者的分离焦虑这时却倒像是突然消失了。</p>
+<p>&nbsp;</p>
+<p>第二天再见到迦尔纳时已经是下午，年少者推开茶房的门时，他正坐在桌边翻阅着公文，似乎是因为阿周那正在书房里会客，所以他索性来阳光更明媚的这间屋子里呆着落个清净。在听到开门声后，omega转过头来，他看了一眼门口的alpha便又转回身继续阅读着手中的纸张。</p>
+<p>“下午好，迦尔纳。”他如此用带着几分欣喜的平静语气说道。</p>
+<p>“下午好。”对方如此回应道，语气却并没有半分敷衍，甚至在阅读完最后一行字后，他拿过桌上空着的茶杯，为坐在对面的alpha倒了杯茶。</p>
+<p>“你昨天喝醉了。”</p>
+<p>迦尔纳看了他一眼：“似乎是这样，我记不清楚了。”</p>
+<p>如此的表现对于年少者来说也并非不能理解，他拿起桌上的茶杯抿了一口，带着温度的液体里是浓郁的苦味和隐约漂浮着的茶香，倒是迦尔纳才能泡出来的味道，却也并算不上什么高超的手法。甚至单论味道的话，王都中有不少泡茶水平高超的人，然而无论是他还是阿周那都只对这种味道的茶水情有独钟。</p>
+<p>他垂眼看着手中的杯子：“你现在还好吗？”</p>
+<p>“你说什么？”迦尔纳的声音听上去只是单纯的疑惑。</p>
+<p>“因为昨天晚上……”Alpha抬起头去，刚刚看向他的迦尔纳微微睁大着眼睛，在他看向他时便飞快地又转向自己手中写满字的高级信纸上，然而omega发丝间时隐时现的耳廓却显得有些发红，“迦尔纳？”</p>
+<p>他几乎要伸出手去握住对方放在桌面上的手肘。</p>
+<p>“我没事。”迦尔纳快速地回答道，“不用担心。”</p>
+<p>“但是……”他依然感到隐约的不安，甚至胸口都有一种莫名的骚动着的冲动，或许是因为前一夜迦尔纳对他的态度过分的冷淡，他开始担心自己之前是否真的给予了年长者过度的压力。</p>
+<p>“如果你讨厌我的求爱的话，我希望你能告诉我。”</p>
+<p>他的反应终于让迦尔纳也不得不彻底放弃继续阅读手中的公文，他将那张纸折了起来放在一边，侧身看着一直凝视自己的年少者。</p>
+<p>“这并不是你想的那样。”他微微皱眉，似乎在思考如何说出正确且恰当的话语，同时还要避免对方过度解读他的意思，“还是说我昨晚做了什么让你有这样的想法吗？”</p>
+<p>年轻的alter露出的神色带着些许阴霾：“我只是觉得……你一直在压抑自己。”</p>
+<p>“为什么？”</p>
+<p>“或许我只是想看到更真实的你罢了，”他抬起眼睛看着迦尔纳在阳光照射中甚至显得透明的脸，“昨晚似乎我终于看到了一点。”</p>
+<p>迦尔纳却是彻底地转过了身，他脸上恢复了之前那种没有表情的状态，抽过旁边的信封和拆信刀：“我并没有那样，你误会了。”</p>
+<p>“在我看来这并不是误会，你总是在说服自己接受自己不喜欢的事物不是吗？”</p>
+<p>他和再次抬起头来的omega对视，尽管如此，年少者也并没有要停下来的意思。</p>
+<p>“或许你觉得无所谓，但在我看来，你没有感觉的原因只是选择了刻意忽视自己情感的结果。”</p>
+<p>“那么你希望我拒绝你吗？”</p>
+<p>“我想要的并不是这样的结果，比起你问我是否希望些什么，我更想听到你希望得到什么。”他伸出手，握住了omega放下用完的拆信刀的手，“我想知道你真正的情感。”</p>
+<p>迦尔纳有那么一瞬间皱了下眉头，最终他又敛起了所有的表情，只是青色的瞳孔间残余了些许的复杂之色，然而对于持续关注着他的年少者来说，他在那刹那间露出的神情就足以说明很多内容。</p>
+<p>“我没有。”然而他薄薄的嘴唇间却吐出的是否定的话语。</p>
+<p>那么阿周那就能看到他所看不到的那一面吗？就像是昨晚迦尔纳一定要他留在自己身边那样？</p>
+<p>“你希望阿周那留在你的身边吗？”</p>
+<p>迦尔纳转过头去。</p>
+<p>“如果是我的话就不行吗？”</p>
+<p>“因为我和他都需要彼此。”</p>
+<p>“……我的话就不行吗？”</p>
+<p>&nbsp;</p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Pieces/">Pieces</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%91%A8%E8%BF%A6/">周迦</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/08/05/Waltz-final/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Waltz -final-</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2022/04/07/Fantasia/">
+                        <span class="hidden-mobile">Fantasia</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    function loadValine() {
+      addScript('https://cdn.staticfile.org/valine/1.4.14/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "YeywdQ1l0mtFyhc84O5AfKh6-MdYXbMMI",
+          app_key: "MYk3JcokGXl2DnNBAhsMTG1C",
+          placeholder: "说点什么",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "15",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    }
+    createObserver(loadValine, 'vcomments');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: 'article.markdown-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Waltz&nbsp;",
+      ],
+      cursorChar: "|",
+      typeSpeed: 50,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-175156571-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+</body>
+</html>
